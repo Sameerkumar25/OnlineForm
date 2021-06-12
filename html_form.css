@@ -1,0 +1,91 @@
+body
+{
+	background-image: url("sam.jpg");
+	color: white;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Akaya Kanadaka', cursive;
+	margin: 0px;
+	font-size: 15px;
+	
+	flex-direction: row;
+	
+
+}
+label
+{
+	
+}
+
+legend
+{
+	border: 2px solid white;
+	border-radius: 0 10px 0 10px;
+	box-shadow: 0 0 10px red;
+	background-color: rgba(60,60,60,0.7);
+}
+
+fieldset
+{
+	
+	background-color: rgba(60,60,60,0.8);
+	border-radius: 0 10px 0 10px;
+	margin: 14px;
+	padding: 10px;
+
+
+}
+
+input[type=text]
+{
+	
+	border-radius: 10px;
+	line-height: 5px;
+	font-size: 25px;
+	margin: 5px;
+
+
+}
+input[type=number]
+{
+	border-radius: 5px;
+	line-height: 5px;
+	font-size: 25px;
+	margin: 5px;
+}
+input[type=date],input[type=chekbox]
+{
+	border-radius: 5px;
+	line-height: 5px;
+	font-size: 29px;
+	margin: 20px;
+
+}
+
+textarea
+{
+	border-radius: 10px;
+	font-size: 28px;
+	margin-right: 60px;
+}
+input[type=time]
+{
+	border-radius: 5px;
+	font-size: 20px;
+	margin-right: 5px;
+
+}
+h1
+{
+	font-family: 'UnifrakturMaguntia', cursive;
+	text-shadow: 0 0 30px red;
+}
+
+input[type=submit],input[type=reset]
+{
+	border-radius: 0 10px 10px;
+	font-size:25px;
+	box-shadow: 0 0 10px red;
+	font-family: 'UnifrakturMagnutia',cursive;
+}
